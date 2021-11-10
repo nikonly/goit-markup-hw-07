@@ -1,0 +1,26 @@
+.footer {
+  background-color: var(--bg-color-black);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.address {
+  margin-bottom: 9px;
+}
+.contact-address .mail {
+  margin-bottom: 9px;
+}
+.logo-footer {
+  margin-bottom: 20px;
+  display: block;
+}
+.address,
+.contact-address {
+  font-style: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white-color);
+}
+.contact-address .link {
+  color: var(--rgb-footer);
+  display: block;
+}
