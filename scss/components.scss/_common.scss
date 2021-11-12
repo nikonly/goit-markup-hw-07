@@ -11,12 +11,7 @@ body {
 .link {
   text-decoration: none;
 }
-.logo-black {
-  color: var(--title-text-color);
-}
-.logo-white {
-  color: var(--white-color);
-}
+
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -30,7 +25,12 @@ body {
   font-size: 36px;
   line-height: 1.17;
 }
-
+.logo-black {
+  color: var(--title-text-color);
+}
+.logo-white {
+  color: var(--white-color);
+}
 p {
   color: var(--primary-text-color);
 }

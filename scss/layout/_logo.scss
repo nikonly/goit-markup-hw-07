@@ -1,4 +1,4 @@
-.main-nav .logo {
+.header__logo {
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -9,4 +9,9 @@
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
 }
