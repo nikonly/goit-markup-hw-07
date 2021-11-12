@@ -3,7 +3,7 @@
   color: var(--white-color);
   letter-spacing: 0.06em;
 }
-.hero-title {
+.hero__title {
   margin-top: 0;
   margin-bottom: 30px;
   padding-top: 0;
@@ -34,4 +34,19 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.hero__button {
+  display: inline-block;
+
+  border-radius: 4px;
+  padding: 10px 32px;
+
+  font-family: inherit;
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  border-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  cursor: pointer;
 }

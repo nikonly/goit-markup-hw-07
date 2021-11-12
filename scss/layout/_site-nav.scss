@@ -2,14 +2,16 @@
   display: flex;
   margin-left: 93px;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .site-nav__link:hover,
+.site-nav .site-nav__link:focus {
   color: var(--accent-color);
 }
-.site-nav .item + .item {
+
+.site-nav .site-nav__item + .site-nav__item {
+  display: block;
   margin-left: 50px;
 }
-.site-nav .link.current {
+.site-nav__link.current {
   color: var(--accent-color);
 
   &::after {
@@ -24,7 +26,7 @@
     border-radius: 2px;
   }
 }
-.site-nav .link {
+.site-nav__link {
   position: relative;
 
   display: block;

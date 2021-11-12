@@ -4,7 +4,7 @@
   background-color: var(--primary-bg-color);
 }
 
-.team-item {
+.team__item {
   max-width: 270px;
   text-align: center;
   background-color: var(--bg-color);
@@ -12,11 +12,11 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-title {
+.team__title {
   margin-top: 0;
   margin-bottom: 50px;
 }
-.team-subtitle {
+.team__subtitle {
   margin-top: 0;
   margin-bottom: 10px;
 
@@ -24,20 +24,21 @@
   font-size: 16px;
   line-height: 1.19;
 }
-.team-text {
+.team__text {
   margin-bottom: 16px;
   margin-top: 0px;
   font-size: 16px;
   line-height: 1.19;
 }
-.paragraph {
+.team__paragraph {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.team-list {
+.team__list {
   display: flex;
 }
 
-.team-list .team-item + .team-item {
+.team__list .team__item + .team__item {
+  display: block;
   margin-left: 30px;
 }
